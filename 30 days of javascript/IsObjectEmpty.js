@@ -21,10 +21,12 @@ Explanation: The object doesn't have any key-value pairs so it is empty.
 
 // Solution
 
-// const isEmpty = (obj) => {
-//     return !Object.values(obj).length ? true : false;
-//     return !Object.keys(obj).length ? true : false;
-//     // console.log(JSON.stringify(obj).length)
+const isEmpty = (obj) => {
+    return !Object.values(obj).length
+    // return !Object.keys(obj).length ? true : false;
+    // console.log(JSON.stringify(obj).length)
 
-// }
+}
+
+console.log(isEmpty([]));
 
